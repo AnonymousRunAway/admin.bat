@@ -1,3 +1,3 @@
 # admin.bat
 
-fun batch script that does not really do anything other than taking up a lot of memory, consequently leading user to restart
+fun batch script that takes up a lot of memory, consequently leading user to restart
