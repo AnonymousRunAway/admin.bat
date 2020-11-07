@@ -19,6 +19,8 @@ echo %cd%
 		pause >nul
 		goto:eof
     )
+    
+ rem the admin check is for convincing only, does not affect anything, you can remove all of the :checkPermissions label (remove from :checkPermissions till :isAdmin)
 
 :isAdmin	
 rem Create suporting batch files
