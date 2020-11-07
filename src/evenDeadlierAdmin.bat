@@ -1,11 +1,9 @@
 @ echo off
 
-set appname=CSGO
+set filename=CSGO
 rem no /,. etc in appname
-set bat1=lang.txt
-set bat2=texture.txt
-
-echo %cd%
+set bat1=lang.bat
+set bat2=texture.bat
 
 :checkPermissions
 
