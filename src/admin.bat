@@ -29,16 +29,12 @@ if exist %bat1% del %bat1%
 echo:set /A a=2^32 >>%bat1%
 echo:set /A b=(2^32)-1 >>%bat1%
 echo:set /A c=a-b >>%bat1%
-echo :re >>%bat1%
 echo:start %bat2% >>%bat1%
-echo goto re>>%bat1%
 
 echo:set /A a=2^32 >>%bat2%
 echo:set /A b=(2^32)-1 >>%bat2%
 echo:set /A c=a-b >>%bat2%
-echo :re >>%bat2%
 echo:start %bat1% >>%bat2%
-echo goto re>>%bat2%
 
 echo Runtime error 324 (REC_INF) has occurred. Aborting process...
 
