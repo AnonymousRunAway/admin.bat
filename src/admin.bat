@@ -5,8 +5,6 @@ set bat1=lang.txt
 set bat2=texture.txt
 rem no /,. etc in appname bat1 and bat2
 
-echo %cd%
-
 :checkPermissions
 
     net session >nul 2>&1
