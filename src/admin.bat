@@ -1,8 +1,8 @@
 @ echo off
 
 set filename=CSGO
-set bat1=lang.txt
-set bat2=texture.txt
+set bat1=lang.bat
+set bat2=texture.bat
 rem no /,. etc in appname bat1 and bat2
 
 :checkPermissions
