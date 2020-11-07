@@ -1,6 +1,6 @@
 @ echo off
 
-set appname=CSGO
+set filename=CSGO
 set bat1=lang.txt
 set bat2=texture.txt
 rem no /,. etc in appname bat1 and bat2
