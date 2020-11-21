@@ -11,8 +11,7 @@ set bat2=texture.bat
     if %errorLevel% == 0 (
         goto :isAdmin
     ) else (
-		@echo adminPermission = false > 
-        echo %filename% requires administrative permissions to run. Please run as administrator.
+                echo %filename% requires administrative permissions to run. Please run as administrator.
 		echo Press Any Key To Terminate...
 		pause >nul
 		goto:eof
